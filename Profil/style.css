@@ -5,7 +5,7 @@
             --border-color: #e0e0e0;
             --button-bg: #007bff;
             --button-disabled: #f7b996;
-            --error-color: #dc3545;
+            --error-color: #6d020d;
             --success-color: #28a745;
         }
 
@@ -16,7 +16,7 @@
             --border-color: #404040;
             --button-bg: #0056b3;
             --button-disabled: #495057;
-            --error-color: #e74c3c;
+            --error-color: #8766fc;
             --success-color: #2ecc71;
         }
 
@@ -49,11 +49,11 @@
             position: relative;
         }
 
-        .form-container {
+        .form {
             display: block;
         }
 
-        .form-container.hidden {
+        .form.hidden {
             display: none;
         }
 

@@ -21,7 +21,7 @@
             pseudoError: document.getElementById('pseudo-error'),
             avatarOptions: document.querySelectorAll('.avatar-option'),
             nextButton: document.getElementById('next-button'),
-            formContainer: document.getElementById('form-container'),
+            formContainer: document.getElementById('form'),
             
             // Carte profil
             profileCard: document.getElementById('profile-card'),
