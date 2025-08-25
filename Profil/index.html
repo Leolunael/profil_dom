@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Profil</title>
+<body>
+    <div class="container">
+        <!-- Formulaire de création de profil -->
+        <div id="form-container" class="form-container">
+            <h1>Crée ton profil</h1>
+            
+            <!-- Section description -->
+            <div class="description-section">
+                <div id="description" class="description"></div>
+                <button id="change-description" class="change-description-btn">Changer de description</button>
+            </div>
+
+            <!-- Section pseudo -->
+            <div class="input-section">
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" id="pseudo" placeholder="Entre ton pseudo">
+                <div id="pseudo-error" class="error-message"></div>
+            </div>
+
+            <!-- Section avatar -->
+            <div class="avatar-section">
+                <label>Choisis ton avatar :</label>
+                <div class="avatars-container">
+                    <img src="attente.jpg" alt="Avatar 1" class="avatar-option" name="attente">
+                    <img src="Vacances.jpg" alt="Avatar 2" class="avatar-option" name="vac">
+                    <img src="Retour.jpeg" alt="Avatar 3" class="avatar-option" name="retour">
+                    <img src="work.jpeg" alt="Avatar 4" class="avatar-option" name="full">
+                </div>
+            </div>
+
+            <!-- Bouton suivant -->
+            <button id="next-button" class="next-button" disabled>Suivant</button>
+        </div>
+
+        <!-- Carte profil finale -->
+        <div id="profile-card" class="profile-card">
+            <img id="final-avatar" class="profile-avatar" src="" alt="Avatar final">
+            <div id="final-pseudo" class="profile-pseudo"></div>
+            <div id="final-description" class="profile-description"></div>
+            <button id="reset-button" class="reset-button">Recommencer</button>
+        </div>
+    </div>
+
+    <!-- Sélecteur de thème -->
+    <div id="theme-toggle" class="theme-toggle">🌓 Thème</div>
+</body>
+</html>
